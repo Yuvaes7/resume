@@ -1,0 +1,272 @@
+nav {
+  width: 100%;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  color: purple;
+  text-decoration: none;
+}
+
+.home-container {
+  background-color: aliceblue;
+}
+
+.background-box {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.content {
+  padding-top: 20%;
+  padding-left: 20%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.content p {
+  font-size: x-large;
+  color: #4e380e;
+}
+
+.content h1 {
+  font-size: xx-large;
+  padding-left: 70px;
+}
+
+.title, .about, .contact {
+  color: white;
+  text-decoration: none;
+}
+
+.title {
+  padding-top: 30px;
+  padding-left: 10px;
+}
+
+.about {
+  padding-right: 10px;
+}
+
+.contact {
+  padding-right: 20px;
+}
+
+.dee-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  gap: 40px;
+  padding-top: 5%;
+}
+
+.dee-box {
+  width: 100%;
+  height: 500px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  .dee-box {
+    height: 50vh;
+  }
+}
+
+.dee-boxone h1 {
+  font-size: xx-large;
+  padding-left: 30%;
+  color: #4e380e;
+}
+
+.dee-boxone p {
+  padding-left: 30%;
+}
+
+button:hover {
+  background-color: #e6c47b;
+}
+
+.dee-boxone button {
+  background-color: #4e380e;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.dee-boxtwo {
+  padding-left: 50%;
+}
+
+.education {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 10px;
+  background-color: aliceblue;
+}
+
+.education h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.education-details {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.education-box {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  box-sizing: border-box;
+  width: 300px;
+}
+
+.education-box h4 {
+  color: #4e380e;
+}
+
+.educations-box {
+  background-color: #f4f2fa;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  box-sizing: border-box;
+  width: 800px;
+}
+
+.skills {
+  text-align: center;
+  background-color: #f4f2fa;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 10px;
+}
+
+.skillsone {
+  background-color: #f3e8dd;
+  padding: 10px;
+  border: 1px solid #f2f2e6;
+  border-radius: 5px;
+  text-align: center;
+  box-sizing: border-box;
+  width: 300px;
+}
+
+.skillstwo {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.project {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 10px;
+  background-color: aliceblue;
+  text-align: center;
+}
+
+.projecttwo {
+  text-align: left;
+  padding: 10px;
+  padding-left: 30px;
+}
+
+.project p {
+  font-size: medium;
+  padding-left: 30px;
+}
+
+.project h4 {
+  font-size: larger;
+  padding-left: 30px;
+}
+
+.project li {
+  padding: 5px;
+}
+
+.projectone {
+  display: flex;
+  gap: 10px;
+}
+
+.certification {
+  text-align: center;
+  background-color: #f4f2fa;
+  margin: 20px;
+  padding: 10px;
+}
+
+.certificationone li {
+  list-style: none;
+  padding: 5px;
+}
+
+.honor {
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  background-color: aliceblue;
+}
+
+.honor ul {
+  list-style: none;
+}
+
+.contact-content {
+  color: black;
+  padding-left: 30%;
+  text-decoration: underline;
+}
+
+.contacttop {
+  background-color: lightslategrey;
+}
+
+.contactinfo {
+  color: black;
+  padding: 10px;
+}
+
+.contactinfo ul {
+  list-style: none;
+}
+
+.contactinfo li {
+  padding: 10px;
+}
+
+.contactinfone {
+  color: black;
+  padding-left: 25%;
+  text-decoration: underline;
+}
+
+.contactinfotwo li {
+  list-style: none;
+  color: black;
+}
+
+
+
+  
+
