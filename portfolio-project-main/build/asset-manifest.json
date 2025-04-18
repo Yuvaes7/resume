@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/yuvakiran-portfolio/static/css/main.76d35a8e.css",
+    "main.js": "/yuvakiran-portfolio/static/js/main.11265c51.js",
+    "static/js/453.a7a0c544.chunk.js": "/yuvakiran-portfolio/static/js/453.a7a0c544.chunk.js",
+    "index.html": "/yuvakiran-portfolio/index.html",
+    "main.76d35a8e.css.map": "/yuvakiran-portfolio/static/css/main.76d35a8e.css.map",
+    "main.11265c51.js.map": "/yuvakiran-portfolio/static/js/main.11265c51.js.map",
+    "453.a7a0c544.chunk.js.map": "/yuvakiran-portfolio/static/js/453.a7a0c544.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76d35a8e.css",
+    "static/js/main.11265c51.js"
+  ]
+}
